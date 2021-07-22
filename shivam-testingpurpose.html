@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -63,16 +64,16 @@
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
-                            <div class="my-5 text-center text-xl-start">
+                            <div class="my-5 text-center text-xl-start" id="coverTitle">
                                 <h1 class="display-5 fw-bolder text-white mb-2">VITrendz Chennai</h1>
                                 <p class="lead fw-normal text-white-50 mb-4">A Student Community To Keep VITians Entertain and Help In Academics</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
-                                    <a class="btn btn-outline-light btn-lg px-4" href="https://res.cloudinary.com/vitrendzchennai/image/upload/v1626877429/hat3xx91ozu2lrgh7qdp_kzhikk.jpg">Learn More</a>
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3 __button1" href="#features">Get Started</a>
+                                    <a class="btn btn-outline-light btn-lg px-4 __button2" href="https://res.cloudinary.com/vitrendzchennai/image/upload/v1626877429/hat3xx91ozu2lrgh7qdp_kzhikk.jpg">Learn More</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://chennai.vit.ac.in/wp-content/uploads/2020/03/campus-banner.jpg" alt="..." /></div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center" id="coverImage"><img class="img-fluid rounded-3 my-5" src="https://chennai.vit.ac.in/wp-content/uploads/2020/03/campus-banner.jpg" alt="..." /></div>
                     </div>
                 </div>
             </header>
@@ -281,32 +282,6 @@
                     </div>
                 </div>
             </section>
-            <div class="myCommunity">
-
-                <div class="aboutUsTitle2 "><h1 class="opac">VITrendz Community</h1></div>
-                    <div class="row countRow">
-                        <div class="col-md-3  counter-box" >
-                            <div class="icon-box instaCount"><i class="fab fa-instagram"></i></div>
-                            <h2><span class="counter">1500</span><span>+</span></h2>
-                            <p>INSTAGRAM FOLLOWERS</p>
-                        </div>
-                        <div class="col-md-3 counter-box" >
-                           <div class="icon-box teleCount"><i class="fab fa-telegram-plane"></i></div>
-                          <h2><span class="counter">30</span><span>+</span></h2>
-                            <p>TELEGRAM CHANNELS</p>
-                        </div>
-                        <div class="col-md-3 counter-box" >
-                            <div class="icon-box whatCount"><i class="fab fa-whatsapp"></i></div>
-                            <h2><span class="counter">60</span><span>+</span></h2>
-                            <p>WHATSAPP GROUPS</p>
-                        </div>
-                        <div class="col-md-3 counter-box" >
-                            <div class="icon-box disCount"><i class="fab fa-discord"></i></div>
-                            <h2><span class="counter">500</span><span>+</span></h2>
-                            <p>DISCORD MEMBERS</p>
-                        </div>
-                        
-                    </div>
         </main>
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
@@ -327,5 +302,34 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+        <!--added manully -->
+        <script defer>
+            gsap.from("#coverImage", {duration: 1.5, x: 300, opacity: 0, scale: 0.5});
+            gsap.from("#coverTitle", {duration: 1.5, y: -300, opacity: 0, scale: 0.5});
+            gsap.from(".__button1", {duration:0.5, opacity: 0, x: -100,scale: 0.2, delay:1.5});
+            gsap.from(".__button2", {duration:0.5, opacity: 0, x: 100,scale: 0.2, delay:1.5});
+            gsap.from(".nav-item", {
+          duration: 2,
+          scale: 0.5, 
+          opacity: 0, 
+          delay: 0.5, 
+          stagger: 0.2,
+          ease: "elastic", 
+          force3D: true
+        });
+
+        document.querySelectorAll(".nav-item").forEach(function(box) {
+          box.addEventListener("click", function() {
+            gsap.to(".box", {
+              duration: 0.5, 
+              opacity: 0, 
+              y: -100, 
+              stagger: 0.1,
+              ease: "back.in"
+            });
+          });
+        });
+        </script>
     </body>
 </html>
