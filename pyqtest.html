@@ -9,7 +9,7 @@
 
 <script>
 
-const courses=["abc","bcd","cde","def","efg","fgh","ghi"]
+const courses=["abc","bcd","cde","def","efg","fgh","ghi","MAT1001"]
 
 function search()
 {
@@ -28,7 +28,7 @@ if(y!=0)
 {
 for(let j=0;j<courses.length;j++)
 {
-    let n=courses[j].search(x.value);
+    let n=courses[j].search(x.value/i);
     if(n>=0)
     {
       var k=p.length;
@@ -62,6 +62,7 @@ for(let m=0;m<p.length;m++)
     <a href="#" id="efg" style="display: none;">efg</a>
     <a href="#" id="fgh" style="display: none;">fgh</a>
     <a href="#" id="ghi" style="display: none;">ghi</a>
+    <a href="#" id="MAT1001" style="display: none;" src="https://res.cloudinary.com/tycoon/image/upload/v1578818221/dcicwyyxqabj8dsothr4.pdf">MAT1001</a>
 </div>
 </body>
 </html>
