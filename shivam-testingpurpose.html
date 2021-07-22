@@ -64,7 +64,7 @@
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
-                            <div class="my-5 text-center text-xl-start">
+                            <div class="my-5 text-center text-xl-start" id="coverTitle">
                                 <h1 class="display-5 fw-bolder text-white mb-2">VITrendz Chennai</h1>
                                 <p class="lead fw-normal text-white-50 mb-4">A Student Community To Keep VITians Entertain and Help In Academics</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
@@ -306,6 +306,7 @@
         <!--added manully -->
         <script defer>
             gsap.from("#coverImage", {duration: 1.5, x: 300, opacity: 0, scale: 0.5});
+            gsap.from("#coverImage", {duration: 1.5, y: -300, opacity: 0, scale: 0.5});
         </script>
     </body>
 </html>
