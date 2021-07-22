@@ -1,0 +1,172 @@
+<BuilderCarousel
+  class="builder-carousel"
+  data-name="builder-carousel"
+></BuilderCarousel>
+<style>
+  .builder-carousel {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+</style>
+<script>
+  (() => {
+    const state = {};
+
+    // Function to update data bindings and loops
+    // call update() when you mutate state and need the updates to reflect
+    // in the dom
+    function update() {
+      document
+        .querySelectorAll("[data-name='builder-carousel']")
+        .forEach((el) => {
+          el.slides = [
+            {
+              content: [
+                {
+                  "@type": "@builder.io/sdk:Element",
+                  "@version": 2,
+                  id: "builder-22ca76a72f4d4de1abe7316d4032e8f4",
+                  children: [
+                    {
+                      "@type": "@builder.io/sdk:Element",
+                      "@version": 2,
+                      id: "builder-04e6da1e91614d89a120b5103bb462ad",
+                      component: {
+                        name: "Text",
+                        options: {
+                          text: "I am a slide",
+                        },
+                      },
+                      responsiveStyles: {
+                        large: {
+                          marginTop: "50px",
+                          textAlign: "center",
+                          display: "flex",
+                          flexDirection: "column",
+                        },
+                      },
+                    },
+                  ],
+                  responsiveStyles: {
+                    large: {
+                      position: "relative",
+                      display: "flex",
+                      alignItems: "stretch",
+                      flexDirection: "column",
+                      height: "400px",
+                    },
+                  },
+                },
+              ],
+            },
+            {
+              content: [
+                {
+                  "@type": "@builder.io/sdk:Element",
+                  "@version": 2,
+                  id: "builder-f6140d3234264352a0de713a14a42e81",
+                  children: [
+                    {
+                      "@type": "@builder.io/sdk:Element",
+                      "@version": 2,
+                      id: "builder-bc4763efb656489a99180b769fb0c628",
+                      component: {
+                        name: "Text",
+                        options: {
+                          text: "I am a slide",
+                        },
+                      },
+                      responsiveStyles: {
+                        large: {
+                          marginTop: "50px",
+                          textAlign: "center",
+                          display: "flex",
+                          flexDirection: "column",
+                        },
+                      },
+                    },
+                  ],
+                  responsiveStyles: {
+                    large: {
+                      position: "relative",
+                      display: "flex",
+                      alignItems: "stretch",
+                      flexDirection: "column",
+                      height: "400px",
+                    },
+                  },
+                },
+              ],
+            },
+          ];
+          el.autoplaySpeed = 5;
+          el.prevButton = [
+            {
+              "@type": "@builder.io/sdk:Element",
+              "@version": 2,
+              id: "builder-7869c6ddcf924363813a3ae58c408a5b",
+              component: {
+                name: "Image",
+                options: {
+                  image:
+                    "https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fd909a5b91650499c9e0524cc904eeb77",
+                },
+              },
+              responsiveStyles: {
+                large: {
+                  position: "relative",
+                  display: "flex",
+                  alignItems: "stretch",
+                  flexDirection: "column",
+                  height: "30px",
+                },
+              },
+            },
+          ];
+          el.nextButton = [
+            {
+              "@type": "@builder.io/sdk:Element",
+              "@version": 2,
+              id: "builder-ad232ac3997a4b71900bb3195e52a6b3",
+              component: {
+                name: "Image",
+                options: {
+                  image:
+                    "https://cdn.builder.io/api/v1/image/assets%2FagZ9n5CUKRfbL9t6CaJOyVSK4Es2%2Fdb2a9827561249aea3817b539aacdcdc",
+                },
+              },
+              responsiveStyles: {
+                large: {
+                  position: "relative",
+                  display: "flex",
+                  alignItems: "stretch",
+                  flexDirection: "column",
+                  height: "30px",
+                },
+              },
+            },
+          ];
+          el.responsive = [
+            {
+              width: 3000,
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+            {
+              width: 400,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          ];
+        });
+    }
+
+    // Update with initial state on first load
+    update();
+  })();
+</script>
