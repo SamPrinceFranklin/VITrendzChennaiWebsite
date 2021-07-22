@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+
+const courses=["abc","bcd","cde","def","efg","fgh","ghi"]
+
+function search()
+{
+
+    for(let e=0;e<courses.length;e++)
+{
+    var c=document.getElementById(courses[e]);
+    c.style.display="none";
+}    
+
+var p=[];
+var x=document.getElementById('search');
+y=x.value
+
+if(y!=0)
+{
+for(let j=0;j<courses.length;j++)
+{
+    let n=courses[j].search(x.value);
+    if(n>=0)
+    {
+      var k=p.length;
+      p[k]=courses[j];
+    }
+}
+
+for(let m=0;m<p.length;m++)
+{
+    var b=document.getElementById(p[m]);
+    b.style.display="flex";
+}
+}
+
+}
+
+
+</script>
+
+
+<body>
+
+<input type="text" name="search" id="search"  oninput="search()">
+
+ <br><br><br><br>
+<div>
+    <a href="#" id="abc" style="display: none;">abc</a>
+    <a href="#" id="bcd" style="display: none;">bcd</a>
+    <a href="#" id="cde" style="display: none;">cde</a>
+    <a href="#" id="def" style="display: none;">def</a>
+    <a href="#" id="efg" style="display: none;">efg</a>
+    <a href="#" id="fgh" style="display: none;">fgh</a>
+    <a href="#" id="ghi" style="display: none;">ghi</a>
+</div>
+</body>
+</html>
