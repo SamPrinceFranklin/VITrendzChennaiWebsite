@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://chennai.vit.ac.in/wp-content/uploads/2020/03/campus-banner.jpg" alt="..." /></div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center" id="coverImage"><img class="img-fluid rounded-3 my-5" src="https://chennai.vit.ac.in/wp-content/uploads/2020/03/campus-banner.jpg" alt="..." /></div>
                     </div>
                 </div>
             </header>
@@ -302,5 +302,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+        <!--added manully -->
+        <script defer>
+            gsap.from("#coverImage", {duration: 3, x: 300, opacity: 0, scale: 0.5});
+        </script>
     </body>
 </html>
