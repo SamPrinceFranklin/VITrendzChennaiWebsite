@@ -1,0 +1,10 @@
+.card-header-technical{
+    font-weight: 600;
+    font-size : 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.technical-clubs-subtext{
+    text-align: justify;
+    margin: 50px auto;
+}
