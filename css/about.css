@@ -3,4 +3,6 @@
 }
 .lead {
     color:black;
+    font-style: italic;
+    font-size: large;
 }
