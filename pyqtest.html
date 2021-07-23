@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CoursesSearch</title>
 </head>
 
 <script>
 
-const courses=["abc","bcd","cde","def","efg","fgh","ghi","MAT1001"]
+const courses=["STS1011","PHY1701","CSE1002","CSE1001","CSE2003","CSE2004","MAT1002","MAT1001"]
 
-function search()
+function coursesearch()
 {
 
     for(let e=0;e<courses.length;e++)
@@ -22,13 +22,14 @@ function search()
 
 var p=[];
 var x=document.getElementById('search');
-y=x.value
+y=x.value;
+let z = y.toUpperCase(); 
 
 if(y!=0)
 {
-for(let j=0;j<courses.length;j++)
+ for(let j=0;j<courses.length;j++)
 {
-    let n=courses[j].search(x.value);
+    let n=courses[j].search(z);
     if(n>=0)
     {
       var k=p.length;
@@ -36,33 +37,31 @@ for(let j=0;j<courses.length;j++)
     }
 }
 
-for(let m=0;m<p.length;m++)
+ for(let m=0;m<p.length;m++)
 {
     var b=document.getElementById(p[m]);
     b.style.display="flex";
 }
 }
-
 }
-
 
 </script>
 
-
 <body>
 
-<input type="text" name="search" id="search"  oninput="search()">
+<input type="text" name="search" id="search"  oninput="coursesearch()">
 
  <br><br><br><br>
 <div>
-    <a href="#" id="abc" style="display: none;">abc</a>
-    <a href="#" id="bcd" style="display: none;">bcd</a>
-    <a href="#" id="cde" style="display: none;">cde</a>
-    <a href="#" id="def" style="display: none;">def</a>
-    <a href="#" id="efg" style="display: none;">efg</a>
-    <a href="#" id="fgh" style="display: none;">fgh</a>
-    <a href="#" id="ghi" style="display: none;">ghi</a>
-    <a href="https://res.cloudinary.com/tycoon/image/upload/v1578818221/dcicwyyxqabj8dsothr4.pdf" id="MAT1001" style="display: none;" >MAT1001</a>
+    <a href="#" id="STS1011" style="display: none;">STS1011</a>
+    <a href="#" id="PHY1701" style="display: none;">PHY1701</a>
+    <a href="#" id="CSE1002" style="display: none;">CSE1002</a>
+    <a href="#" id="CSE1001" style="display: none;">CSE1001</a>
+    <a href="#" id="CSE2003" style="display: none;">CSE2003</a>
+    <a href="#" id="CSE2004" style="display: none;">CSE2004</a>
+    <a href="#" id="MAT1002" style="display: none;">MAT1002</a>
+    <a href="#" id="MAT1001" style="display: none;">MAT1001</a>
 </div>
+
 </body>
 </html>
