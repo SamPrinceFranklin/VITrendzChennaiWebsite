@@ -1,0 +1,328 @@
+fac_name,course_code,rate_teach,rate_notes,rate_marks,rate_friend,number_of_reviews
+A Felix,MAT1001,10.0,10.0,10.0,10.0,1.0
+A Felix,MAT2001,8.3,6.9,8.4,6.0,5.0
+Abdul Quadir Md,CSE2004,0.0,0.0,0.0,0.0,1.0
+Abhishek Kumar Singh,MAT2001,1.0,1.5,6.0,2.5,1.0
+Abhishek Kumar Singh,MAT2002,3.5,1.5,3.0,2.0,1.0
+Ajit I,HUM1001,7.5,3.5,10.0,5.0,1.0
+Ajitha B,PHY1701,5.7,9.0,6.6,5.1,5.0
+Akaitab Mukherjee,ENG1901,9.0,6.0,8.0,5.5,1.0
+Alamelu C,ENG1902,8.0,8.5,7.0,8.5,1.0
+Alan G,ENG1902,1.0,1.5,1.0,0.0,1.0
+Alan G,HUM1023,8.5,4.5,7.0,10.0,1.0
+Alok Chauhan,CSE2002,8.0,2.0,2.0,3.0,1.0
+Alok Chauhan,CSE2004,5.12,4.5,4.5,6.75,4.0
+Amit Kumar Tyagi,CSE1001,1.75,1.62,3.88,3.25,4.0
+Amit Kumar Tyagi,CSE1004,0.0,0.0,0.0,0.0,1.0
+Amit Kumar Tyagi,CSE2002,1.0,0.5,0.0,0.5,1.0
+Amit Kumar Tyagi,CSE2005,4.0,6.5,2.5,0.0,1.0
+Amrit Pal,CSE1001,1.0,0.5,0.75,1.75,2.0
+Angeline Ezhilarasi G,CSE1003,7.5,4.12,7.0,6.75,4.0
+Anita X,CSE1901,1.0,8.5,6.0,8.0,1.0
+Anita X,SWE1006,8.5,7.0,10.0,10.0,1.0
+Anjali Gopakumar,HUM1021,5.0,5.0,3.5,7.5,1.0
+Anuradha J,MAT2002,0.0,0.0,0.0,10.0,1.0
+Anuradha J,MAT5015,10.0,7.5,10.0,5.0,1.0
+Anusha K,CSE1001,5.5,8.0,10.0,3.5,1.0
+Appalaraju Muralidhar,CSE1001,8.0,8.5,8.0,9.0,1.0
+Appalaraju Muralidhar,CSE1003,10.0,10.0,7.0,7.0,1.0
+Appalaraju Muralidhar,SWE1004,8.25,5.0,4.75,6.12,4.0
+Arun Kumar Sivaraman,CSE2004,5.0,5.0,9.5,9.75,2.0
+Arun Kumar Sivaraman,SWE2004,7.5,10.0,8.0,10.0,1.0
+Asnath Victy Phamila Y,SWE1010,9.0,10.0,10.0,10.0,1.0
+Atanu Dutta,PHY1701,10.0,9.0,9.0,8.5,1.0
+Atanu Dutta,PHY1901,10.0,10.0,6.5,10.0,1.0
+Ayesha SK,CSE1001,9.0,1.0,10.0,10.0,1.0
+Ayesha SK,CSE1013,9.5,1.5,5.5,10.0,1.0
+Ayon Patra,PHY1701,9.17,5.33,7.83,9.17,3.0
+Ayon Patra,PHY1901,10.0,10.0,10.0,10.0,1.0
+B V A N S S Prabhakar Rao,CSE1002,3.67,2.06,6.33,5.83,9.0
+Balaji V.R,ECE1007,8.5,10.0,7.5,10.0,1.0
+Balamurali M M,CHY1004,7.5,10.0,7.5,5.0,1.0
+Balamurali M M,CHY1701,5.5,8.0,2.0,5.0,1.0
+Balamurali M M,FRE1001,10.0,10.0,10.0,10.0,1.0
+Balamurugan B J,MAT2001,7.5,3.5,2.0,3.5,1.0
+Balamurugan B J,MAT2002,6.9,4.6,6.1,8.0,5.0
+Balasundaram A,CSE2004,9.5,7.7,8.2,8.0,5.0
+Berin Greeni A,MAT2001,10.0,10.0,8.5,10.0,1.0
+Berin Greeni A,SWE1004,10.0,10.0,8.5,10.0,1.0
+Bhanu Chander Balusa,CSE1018,10.0,5.5,2.5,7.5,1.0
+Bharathi Raja S,CSE1001,9.5,9.5,9.5,10.0,1.0
+Bharathi Raja S,CSE1002,9.75,9.75,10.0,10.0,2.0
+Bharathi Sankar A,ECE2002,10.0,10.0,10.0,10.0,1.0
+Bhuvaneswari G,ENG1901,10.0,10.0,10.0,10.0,1.0
+Bhuvaneswari G,ENG1903,10.0,10.0,8.0,10.0,1.0
+Bhuvaneswari R,ENG1901,9.5,7.5,8.0,8.5,1.0
+Bhuvaneswari R,HUM1001,8.0,4.5,5.0,5.0,1.0
+Bhuvaneswari R,HUM1021,8.0,8.0,8.0,8.0,1.0
+Bindu B,ECE1002,6.17,9.0,7.5,8.67,3.0
+Binu Ben Jose D R,CSE1003,3.5,3.5,3.5,3.25,2.0
+Binu Ben Jose D R,EEE1001,2.0,2.0,0.0,0.0,2.0
+Binu Sahayam D,HUM1001,7.5,7.0,2.5,7.0,1.0
+Braveen M,CSE2004,9.67,8.0,9.33,9.83,3.0
+Braveen M,CSE2005,10.0,9.5,10.0,10.0,2.0
+Braveen M,Cse2004,5.5,7.5,9.0,9.0,1.0
+Buthanapalli Ramakrishna,CHY1701,3.75,4.5,3.5,4.5,2.0
+Buthanapalli Ramakrishna,CSE1002,1.0,0.0,0.0,2.5,1.0
+Caroline Ponraj,PHY1701,6.5,6.5,6.33,7.17,3.0
+Chendur Kumaran R,CSE1003,7.0,6.33,6.0,9.17,3.0
+Chendur Kumaran R,EEE1001,10.0,10.0,10.0,8.0,1.0
+Chendur Kumaran R,EEE1002,9.5,8.0,9.0,10.0,1.0
+Chitra K,ENG1901,10.0,7.5,10.0,10.0,1.0
+Christo Michael T,MEE1002,10.0,9.5,9.5,8.5,1.0
+Christy Jackson J,CSE1001,6.0,6.5,3.5,10.0,1.0
+Christy Jackson J,CSE2004,10.0,9.0,9.5,5.5,1.0
+Christy Jackson J,Cse2004,10.0,9.0,8.5,10.0,1.0
+Cinu C Kiliroor,CSE1004,0.0,0.0,4.5,0.0,1.0
+Cinu C Kiliroor,CSE2004,0.0,0.5,1.0,0.0,1.0
+David Maxim Gururaj A,MAT1011,10.0,10.0,10.0,10.0,1.0
+David Maxim Gururaj A,SWE1004,10.0,10.0,10.0,10.0,1.0
+Deepa T,CSE1003,3.5,1.0,6.5,6.5,2.0
+Deepa T,EEE1004,1.0,1.0,6.5,9.0,1.0
+Devaprakasam D,HUM1021,2.0,1.5,2.0,1.5,1.0
+Devi Meenakshi K,ENG1901,8.5,7.0,4.5,9.0,1.0
+Devi Meenakshi K,MAT2001,0.0,0.0,0.0,0.0,1.0
+Devi Yamini S,MAT2001,9.5,9.0,8.0,8.5,1.0
+Dhanasekar S,MAT1001,10.0,10.0,10.0,9.5,1.0
+Dhanasekar S,MAT1011,10.0,8.0,8.0,10.0,1.0
+Dhanasekar S,MAT2001,10.0,10.0,10.0,10.0,1.0
+Dhanasekar S,MAT2002,10.0,9.0,9.0,8.0,1.0
+Dhanasekar S,PHY1001,10.0,10.0,7.5,10.0,1.0
+Dhivya M,MAT1011,0.0,0.0,10.0,0.0,1.0
+Dhivya M,MAT2002,9.25,9.0,9.0,9.0,2.0
+Durgaprasad P,CSE1018,10.0,10.0,9.5,9.25,2.0
+Durgaprasad P,CSE2004,7.5,9.5,10.0,10.0,1.0
+Durgaprasad P,MAT1011,3.0,3.0,10.0,10.0,1.0
+Durgaprasad P,MAT1016,7.5,9.5,10.0,10.0,1.0
+Durgaprasad P,MAT1021,9.17,10.0,10.0,10.0,3.0
+Durgaprasad P,MAT2001,8.0,9.75,9.75,8.75,2.0
+Durgaprasad P,MAT2002,6.5,5.5,10.0,10.0,1.0
+Evangeline Sabina Rajasekar,HUM1021,1.0,7.5,2.5,0.0,1.0
+Fateh Veer Singh,CHY1002,6.5,6.0,7.33,10.0,3.0
+Fateh Veer Singh,CHY1701,8.67,9.83,8.5,9.83,3.0
+Febin Daya J L,CSE1003,6.0,6.0,4.0,3.5,1.0
+Ganala Santoshi,CSE1004,2.5,2.5,4.0,0.0,1.0
+Ganesan R,CSE1002,7.5,1.0,3.0,5.5,1.0
+Ganesan R,CSE1004,5.5,4.2,4.6,4.9,5.0
+Gayathri Sivakumar,ECE2035,0.0,1.0,4.5,2.0,1.0
+Geetanjali Chattopadhyay,MAT2002,9.17,6.67,8.5,9.5,3.0
+Geetanjali Chattopadhyay,PHY1001,10.0,10.0,7.5,10.0,1.0
+Gopinath Mudhana,PHY1001,5.0,4.5,6.5,10.0,1.0
+Govindarajan P,FRE1001,9.5,8.25,8.38,7.5,4.0
+Guga Priya G,ECM1001,7.38,8.75,7.0,7.38,4.0
+Hannah Grace G,MAT1003,10.0,9.0,7.0,9.5,1.0
+Hannah Grace G,MAT2001,10.0,10.0,10.0,10.0,1.0
+Hannah Grace G,PHY1001,10.0,10.0,10.0,10.0,1.0
+Hemamalini.S,CSE1003,2.0,5.0,2.0,5.0,1.0
+Hemamalini.S,EEE1019,8.0,9.5,9.0,9.0,1.0
+Hemanth C,ECE1005,8.4,7.5,7.9,7.8,5.0
+Idayachandran .G,HUM1021,9.0,8.5,9.0,8.5,1.0
+Ilaiyaraja Perumal,CHY1002,10.0,10.0,10.0,10.0,1.0
+Ilakiyaselvan N,CSE3001,10.0,10.0,10.0,10.0,1.0
+Ilakiyaselvan N,CSE4028,2.0,0.5,9.0,0.0,1.0
+Ilavarasi A K,CSE2001,10.0,10.0,10.0,10.0,1.0
+Inayathullaah M.A.,EEE1001,7.0,7.0,6.0,3.5,1.0
+Jagnnathan B,MAT2001,6.5,1.5,10.0,8.0,1.0
+Jamuna K,EEE1004,5.83,5.17,6.5,10.0,3.0
+Janaki Meena M,CSE1002,9.4,7.7,5.1,7.9,5.0
+Jayalakshmi S L,CSE1002,9.0,4.5,9.75,9.0,2.0
+Jayalakshmi S L,SWE1004,7.5,6.5,8.5,10.0,1.0
+Jayanta Parui,CHY1701,4.5,3.5,1.0,2.5,1.0
+Jayanthi R,CSE1002,0.0,0.0,5.0,6.0,1.0
+Jayaram B,CSE2003,10.0,10.0,10.0,10.0,1.0
+Jayaram B,EEE1001,4.0,5.0,5.0,5.0,1.0
+Jeganathan L,CSE2002,10.0,10.0,3.5,9.5,1.0
+Jenila Livingston L M,CSE2004,7.62,8.62,7.62,6.88,4.0
+John Kennedy L,PHY1701,8.0,6.5,8.0,6.5,1.0
+Jothi R,CSE1002,10.0,8.0,1.5,5.0,1.0
+Justus S,CSE3002,10.0,10.0,10.0,10.0,1.0
+Kanimozhi G,CSE1003,8.5,7.0,7.0,7.5,1.0
+Karmel A,CSE1001,10.0,10.0,8.5,10.0,1.0
+Karmel A,CSE1003,7.0,6.0,5.0,7.5,1.0
+Karthik R,ECM1005,10.0,4.5,8.0,10.0,1.0
+Karthikeyan K,MEE1001,4.0,0.0,10.0,1.5,1.0
+Kiran Kumar Tadi,CHY1002,5.0,10.0,7.5,7.5,1.0
+Kiran Kumar Tadi,CHY1701,3.5,4.25,10.0,3.75,2.0
+Krishnendu Biswas,CHY1701,7.0,8.5,7.0,6.0,1.0
+Krupa Shah,ENG1902,8.5,8.5,6.5,9.0,1.0
+Lakshmi B,ECE1002,0.83,4.0,1.33,0.33,3.0
+Lakshmi B,MAT2002,8.0,8.0,8.0,6.5,1.0
+Leninisha S,CSE2004,0.0,0.0,0.0,0.0,1.0
+Lucky Agarwal,ECE1002,8.83,2.5,9.5,4.33,3.0
+Mahalakshmi S,CHY1002,10.0,10.0,10.0,10.0,1.0
+Mahalakshmi S,CHY1701,10.0,8.0,10.0,8.25,2.0
+Maheswari R,CSE2001,7.0,2.5,5.5,2.5,1.0
+Maheswari R,CSE3001,8.0,4.5,7.0,6.0,1.0
+Malathi G,CSE1013,10.0,6.5,7.0,10.0,1.0
+Manas Ranjan Prusty,CSE1001,10.0,10.0,7.75,10.0,2.0
+Manikandan N,PHY1701,3.0,1.67,1.33,3.33,3.0
+Manish Kumar,CSE1001,5.0,10.0,8.0,8.0,1.0
+Manivannan A,MAT1011,10.0,10.0,10.0,8.0,1.0
+Manoj Kumar R,ECE3003,5.5,5.0,1.0,3.0,1.0
+Maya Rathnasabapathy,HUM1022,9.5,8.5,7.5,10.0,2.0
+Milind Shrinivas Dangate,CHY1701,0.0,4.5,0.0,0.0,1.0
+Mirza Galib Anwarul Husain Baig,SWE2001,6.0,6.75,8.5,10.0,2.0
+Mirza galib ,SWE2001,2.5,2.5,8.0,8.5,1.0
+Mohamed Imran A,EEE1002,7.25,2.75,3.0,6.75,2.0
+Mohamed Imran A,EEE1004,3.08,2.42,1.92,3.25,6.0
+Mohana N,CSE2004,10.0,10.0,10.0,10.0,1.0
+Mohana N,MAT1001,8.0,0.0,9.0,5.0,1.0
+Mohana N,MAT1011,6.5,6.0,7.5,6.0,1.0
+Mohana N,MAT2001,10.0,10.0,10.0,10.0,3.0
+Mohanaprasad K,ECE2005,7.0,6.0,7.0,8.0,1.0
+Muthukumaran K,CSE1013,10.0,4.5,4.5,10.0,1.0
+Muthumanikandan V,CSE1002,7.5,8.0,4.0,9.0,1.0
+Muthumanikandan V,ECE5016,10.0,1.5,10.0,7.0,1.0
+Nachiyappan S,CSE2004,3.25,2.75,5.0,1.5,2.0
+Nagajayanthi B,ECE3001,2.5,2.5,1.0,0.0,1.0
+Nathiya N,MAT1001,0.0,0.5,0.0,0.0,1.0
+Nathiya N,MAT2002,8.83,6.67,8.67,8.17,3.0
+Navamathavan R,PHY1701,4.0,8.25,10.0,9.5,2.0
+Navamathavan R,PHY1901,0.0,0.0,7.0,9.0,1.0
+Neela Narayanan V,CSE1004,1.33,1.5,1.0,6.33,3.0
+Nilanjan Tewari,EEE1019,10.0,9.0,8.0,10.0,1.0
+Nilanjan Tewari,PHY1701,10.0,5.0,10.0,5.0,1.0
+Niraj Kumar,ECE1003,7.0,7.5,8.5,8.0,1.0
+Nithya Darisini P.S,CSE1021,4.08,2.5,2.08,2.67,6.0
+Nithya Venkatesan,CHY1701,10.0,10.0,10.0,10.0,1.0
+Nithya Venkatesan,CSE1003,7.0,6.67,6.83,8.0,3.0
+Nivedita M,CSE1002,7.25,5.0,7.0,10.0,2.0
+Pankaj Shukla,MAT1011,0.83,3.17,2.67,3.67,3.0
+Pankaj Shukla,MAT2001,6.5,4.5,10.0,10.0,1.0
+Pankaj Shukla,MAT2002,3.75,1.25,5.0,7.5,2.0
+Papanasam E,ECE1002,2.5,5.0,5.5,4.0,1.0
+Parkavi K,CSE1001,6.5,6.5,10.0,10.0,1.0
+Parthiban V,MAT2001,10.0,10.0,10.0,10.0,1.0
+Patchainayagi S,ENG1902,4.0,3.5,4.0,2.5,2.0
+Pavithra L K,CSE1001,9.0,5.75,7.5,4.75,2.0
+Pavithra L K,CSE1002,7.0,4.0,5.0,8.5,1.0
+Phrangboklang Lyngton Thangkhiew,CSE1002,9.0,9.0,10.0,10.0,1.0
+Poulomi De,MAT2002,5.5,5.67,9.33,8.33,3.0
+Prabhakar M,CSE1003,10.0,10.0,10.0,10.0,1.0
+Prabhakar M,CSE2003,10.0,10.0,10.0,10.0,1.0
+Pradeep K V,CSE1002,6.75,6.75,5.75,8.5,2.0
+Pradeep K V,CSE2004,10.0,10.0,10.0,10.0,1.0
+Pradeep Kumar T S,ECE1002,0.0,0.0,0.0,7.5,1.0
+Pradeep Narayanan.S,ECE1006,3.62,2.0,1.0,3.62,4.0
+Prakash B,CSE1002,7.5,8.0,7.5,5.0,1.0
+Prashanth Kumar B,ECE2035,8.0,9.0,5.5,9.5,1.0
+Prassanna J,CSE1001,0.0,0.5,5.0,0.0,1.0
+Pravinkashyap Kambhatla,MAT2001,7.67,7.83,6.83,9.0,3.0
+Premalatha L,CSE1003,2.67,2.5,4.5,1.67,3.0
+Premalatha L,CSE2003,4.0,4.5,7.5,2.5,1.0
+Premalatha L,EEE2001,6.67,7.83,9.33,8.17,3.0
+Premalatha L,SWE1004,7.0,7.0,7.0,10.0,1.0
+Premalatha M,CSE1001,8.62,5.5,8.12,8.0,4.0
+Premalatha M,CSE2004,8.5,8.25,6.88,9.38,4.0
+Premalatha M,CSE2011,3.0,7.0,3.0,2.5,1.0
+Priyaadharshini M,CSE3009,0.0,0.0,0.0,0.0,1.0
+Punithavelan N,PHY1701,6.67,6.83,10.0,10.0,3.0
+Radha R,MEE1002,7.0,6.5,7.5,7.0,1.0
+Radha S,MAT2002,9.83,9.33,10.0,10.0,3.0
+Radhika Selvamani B,CSE1002,2.5,1.0,6.0,6.0,1.0
+Rajarajeswari S,CSE1001,9.0,8.5,8.5,8.5,1.0
+Rajarajeswari S,CSE1002,7.88,7.88,8.88,8.88,4.0
+Rajarajeswari S,CSE1003,9.0,8.5,8.5,8.5,1.0
+Rajendra Kumar K,CHY1701,8.25,8.62,5.88,7.12,4.0
+Rajesh M,CSE1001,0.0,0.0,0.0,0.0,1.0
+Rajitha K,ENG1901,10.0,9.0,5.5,6.0,1.0
+Rajitha K,PHY1701,9.0,9.0,9.5,10.0,1.0
+Rajiv Vincent,CSE1002,4.5,2.5,2.5,10.0,1.0
+Rajiv Vincent,CSE1004,4.5,3.0,3.0,10.0,1.0
+Rajkumar S,CSE1002,7.75,5.25,6.5,2.75,2.0
+Rajkumar S,CSE1022,0.0,0.0,0.0,0.0,1.0
+Rashmi Rekha Borah,ENG1901,10.0,10.0,10.0,10.0,1.0
+Ravi Prakash Dwivedi,CSE2006,3.0,3.0,10.0,10.0,1.0
+Ravi V,ECE1001,8.0,9.0,8.5,6.0,2.0
+Renta Chintala Bhargavi,CSE1021,3.25,2.75,1.0,3.5,2.0
+Revathi G K,MAT1003,8.0,7.0,1.0,5.0,1.0
+Revathi G K,MAT2001,7.0,7.75,8.25,8.5,2.0
+Revathi S,ECE1001,10.0,6.0,8.5,5.88,4.0
+Richa,CSE1002,10.0,10.0,10.0,10.0,2.0
+Richa,CSE1003,10.0,10.0,10.0,10.0,1.0
+Richa,CSE2001,10.0,8.0,9.0,10.0,1.0
+Rishikeshan C A,CSE1004,0.0,0.0,0.0,0.0,1.0
+Rukmani P,CSE1002,7.75,8.0,8.38,7.0,4.0
+Sajidha S A,CSE2004,8.5,5.5,5.0,3.5,1.0
+Saleena B,CSE1002,7.5,9.0,9.5,9.5,1.0
+Saleena B,CSE2001,10.0,10.0,10.0,10.0,1.0
+Sandeep Kumar Satapathy,CSE1018,5.0,3.7,3.7,2.5,5.0
+Sangeetha P,CHY1001,3.0,6.0,8.5,6.0,1.0
+Sangeetha P,CHY1002,4.5,3.5,6.5,1.0,1.0
+Sangeetha P,CHY1701,2.0,3.0,5.0,1.5,1.0
+Sangeetha R G,ECE1005,9.0,10.0,10.0,9.0,1.0
+Sanjit Das,PHY1701,0.0,0.0,0.0,3.33,3.0
+Sanjit Das,PHY1901,3.5,3.5,3.5,6.0,1.0
+Santosh G,CHY1701,8.0,10.0,0.0,5.0,1.0
+Saravanakumar R,CHY1002,8.75,8.5,8.0,5.5,2.0
+Saravanakumar R,CHY1701,8.62,8.75,7.38,5.88,4.0
+Saroj Kumar Dash,EEE1004,6.0,10.0,6.0,3.5,1.0
+Saroj Kumar Dash,MAT1016,0.0,0.0,0.0,0.0,1.0
+Saroj Kumar Dash,MAT2001,5.0,7.5,10.0,6.5,1.0
+Saroj Kumar Dash,MAT2002,5.7,4.0,5.0,3.9,5.0
+Sathya Narayana Kumar,PHY1701,7.0,4.5,4.8,5.7,5.0
+Saurav Gupta,ECE3001,9.0,5.0,8.0,7.5,1.0
+Savariah Xavier Y C,ENG1902,6.0,6.5,4.5,6.5,1.0
+Savariah Xavier Y C,ESP1001,6.5,7.12,6.88,3.62,4.0
+Selvendran S,ECE1007,4.5,7.38,7.25,5.5,4.0
+Selvendran S,ECE2003,9.0,4.5,7.5,0.0,1.0
+Senthil,EEE2001,1.0,8.0,4.0,2.0,1.0
+Senthil Kumar N,CSE1003,9.0,9.0,8.0,9.0,1.0
+Senthil Kumar N,EEE2002,7.5,7.0,6.0,5.0,1.0
+Senthil Kumar N,ESP1001,5.0,4.5,8.0,2.5,1.0
+Shanmuga Sundaram,MEE1002,10.0,8.0,10.0,10.0,2.0
+Sharath Kumar Jagannathan,SWE1004,7.0,5.0,8.0,5.0,1.0
+Sharath Kumar Jagannathan,SWE1701,5.0,2.0,5.0,8.0,1.0
+Shoba S,ECM2002,0.0,0.0,0.0,0.0,1.0
+Shola Usha Rani,CSE1002,0.0,2.25,0.0,0.0,2.0
+Shola Usha Rani,CSE2011,1.71,2.64,0.43,2.5,7.0
+Shyamala L,CSE1001,7.0,7.0,7.5,9.0,1.0
+Sindhia Lingaswamy,CSE2004,1.0,1.25,4.0,2.75,2.0
+Sivabalakrishnan M,CSE2004,3.5,3.75,4.0,8.0,2.0
+Sivakami B,ENG1902,7.0,1.0,0.5,0.0,1.0
+Sourav Adhikary,PHY1701,0.5,5.0,5.0,2.5,1.0
+Sreekanth Dondapati,MEE1005,7.5,7.5,8.0,9.5,1.0
+Sri Revathi B,EEE2002,2.38,5.0,9.25,6.0,4.0
+Srimathi R,CSE1003,1.2,1.3,2.7,0.6,5.0
+Srimathi R,EEE1001,1.5,4.0,5.0,4.0,1.0
+Srivatsan K,ECE3013,1.0,0.0,1.0,5.5,1.0
+Subbulakshmi T,CSE1004,4.25,0.0,2.5,3.5,2.0
+Subbulakshmi T,CSE1006,10.0,0.0,1.5,4.0,1.0
+Subbulekshmi D,EEE1001,10.0,10.0,10.0,8.75,2.0
+Subbulekshmi D,EEE2002,8.0,4.0,5.0,10.0,1.0
+Subhasri Vijayakumar,GER1001,9.6,9.5,9.3,9.6,5.0
+Subhasri Vijayakumar,GER1002,10.0,10.0,10.0,10.0,1.0
+Sudip Debnath,MAT1011,1.5,2.5,1.0,1.0,1.0
+Sudip Debnath,MAT1021,9.25,8.25,7.5,9.75,2.0
+Suganthi K,ECM1002,8.0,6.0,6.5,7.5,1.0
+Swaminathan A,CSE1002,8.0,2.5,6.5,6.0,1.0
+Tanushree Choudhry,CHY1701,9.75,9.12,8.38,8.25,4.0
+Uma Maheswari S,CSE1002,0.0,0.0,0.0,3.5,2.0
+Uma Maheswari S,MAT1011,7.0,10.0,0.0,10.0,1.0
+Uma Maheswari S,MAT1016,10.0,10.0,3.5,2.0,1.0
+Uma Maheswari S,MAT2001,6.9,6.9,6.3,5.2,5.0
+Umayal C,CHY1701,5.5,10.0,3.0,10.0,1.0
+Umayal C,CSE1003,0.75,0.88,3.12,6.12,4.0
+Umitty Srinivasa Rao,CSE3013,10.0,9.25,10.0,10.0,2.0
+Usha Kiran Kommuri,ECE1004,0.0,0.0,0.0,0.0,1.0
+Vaidhyanatha Balaji K.V,MGT1024,0.5,0.0,0.0,0.5,1.0
+Vani V,CSE2004,5.86,4.93,7.21,8.36,7.0
+Vani V,CSE2020,7.0,7.0,5.5,7.0,1.0
+Vani V,Cse2006,10.0,7.5,8.0,9.0,1.0
+Vani V,SWE2003,5.0,5.0,5.0,5.0,1.0
+Vasugi V,CLE1007,10.0,3.5,5.0,10.0,1.0
+Velmathi G,ECE5025,0.0,0.0,0.0,0.0,1.0
+Velmathi G,Soc,0.0,0.0,0.0,0.0,1.0
+Vidhya V,MAT2001,7.25,8.25,9.75,7.75,2.0
+Vidhya V,MAT2002,6.5,4.5,6.5,5.0,1.0
+Vigneshwaran Swaminathan,PHY1701,8.75,6.56,7.06,8.75,8.0
+Vigneshwaran Swaminathan,PHY1901,10.0,10.0,8.25,10.0,2.0
+Vijay Kumar P,MAT1001,10.0,10.0,9.75,10.0,2.0
+Vijayakumar K P,CSE1001,9.0,8.5,6.0,7.5,1.0
+Vijayakumar K P,CSE1003,9.0,4.5,5.5,10.0,1.0
+Vijayakumar K P,CSE2004,6.75,7.38,8.5,7.25,4.0
+Vijayakumar K P,PHY1701,6.5,5.5,7.5,8.0,1.0
+Vijayakumar K P,SWE1008,8.0,6.0,4.5,2.0,1.0
+Vijayakumar P,CSE2004,10.0,10.0,10.0,10.0,1.0
+Viswanathan V,CSE1018,10.0,9.0,9.0,10.0,1.0
+Viswanathan V,SWE2001,9.38,6.12,10.0,8.0,4.0
