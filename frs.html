@@ -162,9 +162,11 @@
                                         <form method="post" autocomplete="off" name="google-sheet">
     
                                             <div class="container my-4">
-    
-                                                <p class="font-weight-bold">Faculty Name</p>
                                                 <p class="font-weight-bold">Use PC to Fill This. Click On the dropdown menu and search your faculty Name</p>
+                                                <div>
+                                                    
+                                                </div>
+                                                <p class="font-weight-bold">Faculty Name</p>
                                                 <select class="mdb-select md-form" searchable="Search here.." name="fac_name">
                                                     
                                                   <option value="" disabled selected>Choose your Faculty Name</option>
@@ -3854,7 +3856,7 @@
                 form.addEventListener('submit', e => {
                   e.preventDefault()
                   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                    .then(response => alert("Thanks For Entering Your Review :)"))
+                    .then(response => alert("Thanks For Entering Your Review :) Soon we will be rolling out the final datasheet."))
                     .catch(error => console.error('Error!', error.message))
                 })
               </script>
