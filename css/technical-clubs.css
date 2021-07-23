@@ -1,0 +1,13 @@
+.tc-header{
+    text-transform: uppercase;
+}
+
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.u-list-item{
+    margin: 10px;
+}
