@@ -32,7 +32,7 @@
             .text-align{
                 margin-top: -3%;
                 margin-bottom: -9%;
-
+                align-items: center;
                 padding: 10%;
                 margin-left: 30%;
             }
@@ -156,7 +156,8 @@
                 <div class="row">
                     <div class="col-md-12">
                             <div class="tab-pane text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h3 class="register-heading">Faculty Review System </h3>
+                                <h1 class="register-heading">Faculty Review System </h1>
+                                <h4 class="register-heading">Last Updated : 10:41 AM - 23/07/2021 </h4>
                                 <div class="row register-form">
                                     <div class="col-md-12">
                                         <form method="post" autocomplete="off" name="google-sheet">
@@ -167,7 +168,7 @@
 
                                                 </div>
                                                 <p class="font-weight-bold">Faculty Name</p>
-                                                <select class="mdb-select md-form" searchable="Search here.." name="fac_name">
+                                                <select class="mdb-select md-form" searchable="Search here.." name="fac_name" required>
                                                     
                                                   <option value="" disabled selected>Choose your Faculty Name</option>
                                                     
@@ -652,8 +653,12 @@
                                                         <option value="	 Tania Sebastian	">	 Tania Sebastian	</option>
                                                         <option value="	 Zakkariya T H	">	 Zakkariya T H	</option>
                                                 </select>
+                                              
+                                                <p class="font-weight-bold">Missing Faculty Name</p>
+                                                <input type="text" id="fname" name="missing_faculty_name"><br>
+
                                                 <p class="font-weight-bold">Course Code</p>
-                                                <select class="mdb-select md-form" searchable="Search here.." name="course_code">
+                                                <select class="mdb-select md-form" searchable="Search here.." name="course_code" required>
                                                     
                                                   <option value="" disabled selected>Choose Your Course Code</option>
                                                   <option value="	EEE1001	">	EEE1001	</option>
@@ -3783,9 +3788,11 @@
                                                   
                                                   
                                                   </select>
+                                                <p class="font-weight-bold">Missing Course Code</p>
+                                                <input type="text" id="fname" name="missing_course_code"><br>
     
                                                 <p class="font-weight-bold">Rating -- Teaching</p>
-                                                <select class="mdb-select md-form" searchable="Search here.." name="rate_teach">
+                                                <select class="mdb-select md-form" searchable="Search here.." name="rate_teach" required>
                                                     
                                                   <option value="" disabled selected>Rating--Teaching</option>
                                                   <option value="1">1</option>
@@ -3796,7 +3803,7 @@
                                                 </select>
     
                                                 <p class="font-weight-bold">Rating -- Notes</p>
-                                                <select class="mdb-select md-form" searchable="Search here.." name="rate_notes">
+                                                <select class="mdb-select md-form" searchable="Search here.." name="rate_notes" required>
                                                     
                                                   <option value="" disabled selected>Rating--Notes</option>
                                                   <option value="1">1</option>
@@ -3807,7 +3814,7 @@
                                                 </select>
     
                                                 <p class="font-weight-bold">Rating -- Marks</p>
-                                                <select class="mdb-select md-form" searchable="Search here.." name="rate_marks">
+                                                <select class="mdb-select md-form" searchable="Search here.." name="rate_marks" required>
                                                     
                                                   <option value="" disabled selected>Rating--Marks</option>
                                                   <option value="1">1</option>
@@ -3818,7 +3825,7 @@
                                                 </select>
     
                                                 <p class="font-weight-bold">Rating -- Friendliness</p>
-                                                <select class="mdb-select md-form" searchable="Search here.." name="rate_friend">
+                                                <select class="mdb-select md-form" searchable="Search here.." name="rate_friend" required>
                                                     
                                                   <option value="" disabled selected>Rating--Friendliness</option>
                                                   <option value="1">1</option>
@@ -3827,7 +3834,10 @@
                                                   <option value="4">4</option>
                                                   <option value="5">5</option>
                                                 </select>
-    
+
+                                                <p class="font-weight-bold">Comments</p>
+                                                <textarea id="comments" name="comments" rows="4" cols="50">
+                                                  </textarea>
     
                                               </div>
                                               <div class="form-group">
