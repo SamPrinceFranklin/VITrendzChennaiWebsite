@@ -47,28 +47,7 @@
 		<label>message</label>
 		<input name="message" />
 		<br/>
-        Formio.createForm(document.getElementById('single-select'), {
-            components: [
-              {
-                type: "select",
-                label: "Single Select",
-                key: "single",
-                placeholder: "Select one",
-                data: {
-                  values: [
-                    {value: 'apple', label: 'Apple'},
-                    {value: 'banana', label: 'Banana'},
-                    {value: 'pear', label: 'Pear'},
-                    {value: 'orange', label: 'Orange'}
-                  ]
-                },
-                dataSrc: "values",
-                defaultValue: 'banana',
-                template: "<span>{{ item.label }}</span>",
-                input: true
-              }
-            ]
-          });
+        
 	</form>
 	<button onclick='SubForm()'>Submit</button>
 </body>
