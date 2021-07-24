@@ -6,6 +6,7 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 var cl = new cloudinary.Cloudinary({cloud_name: "vitrendzchennai", secure: true});
+var cl1 = new cloudinary.Cloudinary({cloud_name: "vitrendz-chennai-01", secure: true});
 var slideIndex = 0;
 showSlides();
 
