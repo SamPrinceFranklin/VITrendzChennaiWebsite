@@ -10,3 +10,10 @@
     font-size: large;
     font-weight: bold;
 }
+
+.lead {
+    color: black;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
