@@ -8,3 +8,246 @@
     text-align: justify;
     margin: 50px auto;
 }
+
+.logo{
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.explore-button{
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.card-item-main{
+    border-radius: 10px;
+}
+.flip-box {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    /* perspective: 1000px; Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+  
+  /* Style the front side */
+  .flip-box-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+    font-size : 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #212529;
+    color: white;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: #212529;
+    transform: rotateY(180deg);
+    border: 2px solid #212529;
+  }
+
+  .flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-box-back {
+      text-align: center;
+    transform: rotateX(180deg);
+  }
+
+  .flip-box-back > h2 {
+      font-size: 80%;
+      padding: 20px;
+      text-align: justify;
+      line-height: 30px;
+  }
+
+  .flip-box2 {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    /* perspective: 1000px; Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box2:hover .flip-box-inner2 {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front2, .flip-box-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+  
+  /* Style the front side */
+  .flip-box-front2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+    font-size : 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #212529;
+    color: white;
+  }
+  
+  /* Style the back side */
+  .flip-box-back2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: #212529;
+    transform: rotateY(180deg);
+    border: 2px solid #212529;
+  }
+
+  .flip-box2:hover .flip-box-inner2 {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-box-back2 {
+      text-align: center;
+    transform: rotateX(180deg);
+  }
+
+  .flip-box-back2 > h2 {
+      font-size: 80%;
+      padding: 20px;
+      text-align: justify;
+      line-height: 30px;
+  }
+
+  .flip-box3 {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    /* perspective: 1000px; Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box3:hover .flip-box-inner3 {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front3, .flip-box-back3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+  
+  /* Style the front side */
+  .flip-box-front3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+    font-size : 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #212529;
+    color: white;
+  }
+  
+  /* Style the back side */
+  .flip-box-back3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: #212529;
+    transform: rotateY(180deg);
+    border: 2px solid #212529;
+  }
+
+  .flip-box3:hover .flip-box-inner3 {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-box-back3 {
+      text-align: center;
+    transform: rotateX(180deg);
+  }
+
+  .flip-box-back3 > h2 {
+      font-size: 80%;
+      padding: 20px;
+      text-align: justify;
+      line-height: 30px;
+  }
+
