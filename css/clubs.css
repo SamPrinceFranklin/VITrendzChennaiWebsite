@@ -171,9 +171,13 @@
 
   .flip-box-back2 > h2 {
       font-size: 80%;
-      padding: 20px;
+      padding: padding: 20px 20px 0 20px;;
       text-align: justify;
       line-height: 30px;
+  }
+
+   #non-tech-button{
+      transform: translateY(-10px);
   }
 
   .flip-box3 {
