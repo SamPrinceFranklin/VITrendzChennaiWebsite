@@ -1,11 +1,11 @@
 .py-5 {
     background-color: #212529;
 }
-.fw-bolder mb-3{
-    color:white;
+.main{
+    color:red;
 }
 .lead {
-    color:black;
+    color:white;
     font-style: italic;
     font-size: large;
     font-weight: bold;
