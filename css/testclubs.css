@@ -1,1 +1,13 @@
+.tc-header{
+    text-transform: uppercase;
+}
+
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-heading-nontech{
+    text-align: center;
+}
 
