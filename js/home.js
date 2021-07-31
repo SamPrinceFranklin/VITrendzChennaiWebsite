@@ -1,6 +1,6 @@
-$(document).ready(function(){
-            $('#latest').modal('show');
-        });
+// $(document).ready(function(){
+//             $('#latest').modal('show');
+//         });
 
 const counters=document.querySelectorAll(".counter");
 // const speed=800;
