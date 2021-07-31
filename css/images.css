@@ -65,7 +65,7 @@
     width: 100px;
     height: 3px;
     background-color: #0d6efd;
-    top: 50px;
+    top: 80px;
     left: 50%;
     transform: translatex(-50%);
     animation: animate 4s linear infinite;
@@ -85,6 +85,7 @@
 
   #gallery{
       font-family: 'Cinzel Decorative';
+      font-size: 60px;
       position: relative;
       top: 10px;
       bottom: 10px;
