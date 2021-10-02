@@ -17,3 +17,13 @@
     font-size: large;
     font-weight: bold;
 }
+.teamtable {
+    border-collapse: collapse;
+    border: 1px #bcbcbc;
+    border-radius: 10px;
+    
+}
+.tt_dept_headers {
+    text-align: center;
+    height: 0px;
+}
