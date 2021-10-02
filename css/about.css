@@ -17,21 +17,4 @@
     font-size: large;
     font-weight: bold;
 }
-.teamtable {
-    border-collapse: collapse;
-    border: 1px #bcbcbc;
-    border-radius: 10px;
-    width: 100%;
-    
-}
-.tt_dept_tr_headers {
-    width: 100%;
-    margin-bottom: 10px;
-}
-.tt_dept_headers {
-    text-align: center;
-    height: 35px;
-    width: 20%;
-    vertical-align: center;
-    margin-bottom: 5px;
-}
+
