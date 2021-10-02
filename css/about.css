@@ -25,6 +25,7 @@
 }
 .tt_dept_headers {
     text-align: center;
-    height: 0px;
+    height: 30px;
     width: 20%;
+    vertical-align: center;
 }
