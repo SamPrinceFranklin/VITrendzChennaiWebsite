@@ -21,7 +21,12 @@
     border-collapse: collapse;
     border: 1px #bcbcbc;
     border-radius: 10px;
+    width: 100%;
     
+}
+.tt_dept_tr_headers {
+    width: 100%;
+    margin-bottom: 10px;
 }
 .tt_dept_headers {
     text-align: center;
